@@ -1,5 +1,6 @@
-# LOAD.ARG Instruction
-Pushes argument value onto stack.
+# LOAD.ARG.S Instruction
+Pushes argument value onto stack.  
+Short version.
 
 > [!WARNING]  
 > The argument indexation begins with 1!  
@@ -9,8 +10,8 @@ Attribute|Value
 :-|:-:
 Alias | `load.arg`
 Introduced in | [v1](/v1)
-Size | 5 = 1 + 4
-Signature | `0x02` u32
+Size | 2 = 1 + 1
+Signature | `0x03` u8
 Stack pop | [None](/STACK_BEHAVIOUR.md#None)
 Stack push| [Var](/STACK_BEHAVIOUR.md#MoveVar)
 
@@ -25,9 +26,12 @@ method "x"
         value s32 "value"
     )
 {
-    load.arg 1          # Load argument by index
+    load.arg.s 1          # Load argument by index
     pop
-    load.arg "value"    # Load argument by name
+    load.arg.s "value"    # Load argument by name
     ret
 }
 ```
+
+> [!NOTE]
+> The intermediate bytecode length is smaller, but the resulting machine code is the same
