@@ -11,7 +11,7 @@ Stack push| [None](/STACK_BEHAVIOUR.md#None)
 
 ## Examples
 
-```il
+```
 method "x"
 {
     nope # does nothing
