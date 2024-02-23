@@ -6,6 +6,6 @@
 + Return - return control to the caller
 
 Byte|Flow type|Name|Description
-:-:|:-:|:-:|:-:|:-
+:-:|:-:|:-:|:-
 `0x00`|Next|[`nope`](nope.md)|Does nothing
 `0x01`|Next|[`add`](add.md)|Pops two integers from stack, then push result onto stack
