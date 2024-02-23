@@ -1,4 +1,5 @@
 # NOPE Instruction
+Does nothing. Used as memory aligner.
 
 Attribute|Value
 :-|:-:
