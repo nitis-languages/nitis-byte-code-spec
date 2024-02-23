@@ -5,5 +5,5 @@ Attribute|Value
 Alias|`nope`
 Introduced in| v1
 Size|1
-Stack pop| [](STACK_BEHAVIOUR.md#None)
-Stack push| [](STACK_BEHAVIOUR.md#None)
+Stack pop| [None](STACK_BEHAVIOUR.md#None)
+Stack push| [None](STACK_BEHAVIOUR.md#None)
