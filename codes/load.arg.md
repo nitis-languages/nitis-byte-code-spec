@@ -2,7 +2,7 @@
 Pushes argument value onto stack.
 
 > [!WARNING]  
-> The argument indexation begins with 1!
+> The argument indexation begins with 1!  
 > `load.arg 0` means load `self`
 
 Attribute|Value
