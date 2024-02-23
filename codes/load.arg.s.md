@@ -4,11 +4,11 @@ Short version.
 
 > [!WARNING]  
 > The argument indexation begins with 1!  
-> `load.arg 0` means load `self`
+> `load.arg.s 0` means load `self`
 
 Attribute|Value
 :-|:-:
-Alias | `load.arg`
+Alias | `load.arg.s`
 Introduced in | [v1](/v1)
 Size | 2 = 1 + 1
 Signature | `0x03` u8
@@ -32,6 +32,3 @@ method "x"
     ret
 }
 ```
-
-> [!NOTE]
-> The intermediate bytecode length is smaller, but the resulting machine code is the same

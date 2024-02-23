@@ -4,7 +4,7 @@ Short version.
 
 > [!WARNING]  
 > The locals indexation begins with 1!  
-> `load.local 0` cause an error
+> `load.s 0` cause an error
 
 Attribute|Value
 :-|:-:
