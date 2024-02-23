@@ -7,5 +7,5 @@
 
 Byte|Flow type|Name|Description
 :-:|:-:|:-:|:-
-`0x00`|Next|[`nope`](./codes/nope.md)|Does nothing
-`0x01`|Next|[`add`](./codes/add.md)|Pops two integers from stack, then push result onto stack
+`0x00`|Next|[`nope`](/codes/nope.md)|Does nothing
+`0x01`|Next|[`add`](/codes/add.md)|Pops two integers from stack, then push result onto stack
